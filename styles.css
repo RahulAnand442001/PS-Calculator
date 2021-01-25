@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+}
+
+.card {
+  padding: 1rem;
+  align-self: flex-start;
+}
+
+.omni-calculator .omni-calculator-header {
+  background: #0a043c !important;
+  color: #ffffff;
+}
+
+.omni-calculator .omni-calculator-footer {
+  display: none !important;
+}
